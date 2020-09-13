@@ -445,6 +445,7 @@ $ docker volume prune
 ```
 
 ## MySQLのDBとユーザーの作成
+docker-composeで定義しているのですでに作成されているはずですが、やり方を忘れないように記載
 ```
 $ mysql -u root -p --protocol=tcp
 ```
