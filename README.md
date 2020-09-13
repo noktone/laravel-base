@@ -9,7 +9,8 @@ DockerでNginx、PHP-FPM、MySQLを構成しています。
  
 ## Dockerのインストール
 ### インストール
-以下はUbuntu18.04での作業になります。Macの人はDocker for Macを、Windowsの人はDocker for Windowsをインストールして、「LaravelのベースプロジェクトをGitから取得する」以降を実施してください。
+以下はUbuntu18.04での作業になります。Macの人はDocker for Macを、Windowsの人はDocker for Windowsをインストールしてください。
+
 ```
 # 旧バージョンのDockerをアンインストール
 $ sudo apt-get remove docker docker-engine docker.io
